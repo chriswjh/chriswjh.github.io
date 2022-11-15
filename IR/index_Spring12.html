@@ -1,0 +1,328 @@
+<html>
+<head>
+<title>Information Retrieval and Applications, Spring 2012</title>
+</head>
+<body>
+	
+<h1>Informaiton Retrieval and Applications, Spring 2012</h1>
+This course offers an introduction to the principles and concepts in information
+retrieval, which is fundamental to modern Web search engines.
+In addition to Web search, other applications of information retrieval
+systems will also be described.
+
+<h2>Course Information</h2>
+<ul>
+	<li>Instructor: Jenq-Haur Wang
+	<li>E-mail: mailbox at the domain of csie  within  NTUT, and my username is jhwang
+	<li>Office: R1534, Technology Building (ext. 4238)
+	<li>Office Hours: Tue. and Wed. 9:00-12:00am
+	<li>Class Hours: Thu. 9:10-12:00am, R1322, Technology Building
+        <li>TA: Mr. H.C.Liu (R1424, Technology Building)
+        <li>Prerequisite: data structures (and algorithms), linear algebra
+	and probability theory, working experience of high-level programming languages
+        <li>Textbook: Christopher D. Manning, Prabhakar Raghavan and Hinrich Schuetze, <A href="http://www.informationretrieval.org/">Introduction to Information Retrieval</a>, Cambridge University Press. 2008. 
+	<li>References: 
+	<ul>
+  	  <li>Ricardo Baeza-Yates and Berthier Ribeiro-Neto, <a
+	  href="http://www.mir2ed.org/">Modern Information Retrieval: The Concepts and Technology behind Search</a>,
+	  Addison-Wesley, 2011.
+	    <ul>
+	    <li>This is the second edition of their book <a href="http://people.ischool.berkeley.edu/~hearst/irbook/">Modern Information Retrieval</a> in 1999.
+	    </ul>
+	  <li>Stefan Buettcher, Charles L.A. Clarke, and Gordon V. Cormack,
+	    <a href="http://www.ir.uwaterloo.ca/book/">Information Retrieval: Implementing and Evaluating Search
+	  Engines</a>, MIT Press, 2010.
+	  <li>Bruce Croft, Donald Metzler, and Trevor Strohman, <a href="http://www.search-engines-book.com/">Search Engines: Information Retrieval in Practice</a>, Addison-Wesley, 2010
+	</ul>
+</ul>	
+
+<h2> Latest News</h2>
+<ul>
+  <li> Jun. 25, 2012: [NOTE] The final score has been posted. Please check if there's any question <b>before Jun. 26, 2012</b>.
+No modification of scores will be allowed after Jun. 26, 2012.
+  <li> Jun. 21, 2012: *** [IMPORTANT] *** All of the 33 teams have finished presentation. Please remember to submit your final report online.
+<br>Note that the score of term project includes: (1) the proposal, (2) the presentation, and (3) the final report. 
+<br>If you didn't submit any proposal in advance, please <b>convert your oral presenations into a report on paper in 1-2 pages</b> (excluding the title, team members, and appendix).
+<br>This report *must* be submitted to the TA's desk (in R1424, Technology Building) <b>before 4PM, Jun. 22, 2012 (Fri.)</b>.
+  <br>*** 重要事項 *** 如之前已提醒各位同學, 由於期末報告的分數包括: (1) proposal (2) 上台報告 (3) 書面報告 (投影片檔案), 如果你缺少任何一項, 例如未繳交 proposal, 或是沒有上台報告, 請務必準備原先預計報告的投影片檔, 並將 <b>口頭報告的內容轉換為1頁以上2頁以內的書面報告</b> 
+(頁數不包含封面組別標題附錄等), 
+請於 <b>本週五(6/22)下午4點以前</b>, 務必將以上書面報告放置在 科研1424 劉助教的桌上, 逾時將不計入成績. 
+<br>至於最後分數計算則由助教決定 (例如: 遲交的打折比例, 或是缺交項目所佔的分數比例等).
+  <li> Jun. 14, 2012: [NOTE] As of Jun. 14, 2012, there are 31 teams (including 12 system demos, and 19 paper presentations) in the final schedule of term project presentation.
+  <br>There are 11 teams remained to present in the last time slot (<b>Jun. 21, 2012</b>).
+  <br>Please be sure to upload your final report after presentation.
+  <li> Jun. 8, 2012: [NOTE] As of Jun. 8, 2012, there are 31 teams (including 11 system demos, and 20 paper presentations) in total.
+  <li> Jun. 6, 2012: [NOTE] As of Jun. 6, 2012, there are 29 teams (including 11 system demos, and 18 paper presentations) in the term project.
+  <br>Please note that the term project *MUST* be orally presented within the 3 time slots on: 6/7, 6/14, 6/21.
+  No other time slots are avilable.
+  <li> Jun. 2, 2012: [NOTE] As of Jun. 1, 2012, there are 28 teams (including 10 system demos, and 18 paper presentations) in term project. 
+  <li> Jun. 1, 2012: [NOTE] The tentative schedule of term project presentation has been arranged. Please check if you have any question about it.
+  <li> May 10, 2012: HW#3 has been announced.
+  <li> Apr. 11, 2012: The deadline of term project proposal is <b>Apr. 19, 2012</b>. Please submit it online as soon as possible.
+  <li> Mar. 15, 2012: HW#1 has been announced. (Due: <b>Apr. 5, 2012</b>).
+<br>Please register your team members via the homework submission site as soon as possible.
+  <br>
+ You can first use <a href="http://boston.lti.cs.cmu.edu/clueweb09/wiki/tiki-index.php?page=Sample+Files">the sample files provided by ClueWeb09</a> for developing your program.
+ After teams are confirmed, the test dataset will be assigned to each team by TA. 
+  <li> Feb. 16, 2012: The homepage for Information Retrieval and Applications (Spring
+  2012) has been setup.
+</ul>
+
+
+<h2>(Tentative) Schedule</h2>
+The slides were slightly modified from the Stanford CS276 class.
+<br>Note: IIR - Introduction to Information Retrieval, MIR - Modern Information Retrieval, Salton - Automatic Text Processing
+<table border=1>
+  <tr><th>Week</th><th>Date</th><th>Content</th><th>Reading</th><Th>Note</th></tr>
+  <tr><td>1</td><td>Feb. 23, 2012</td><td><a href="http://140.124.180.182/IR_Spring12/slides/00-intro.ppt">Course Overview</a></td><td></td></tr>
+  <tr><td>2</td><td>Mar. 1, 2012</td><td>
+   <a href="http://140.124.180.182/IR_Spring12/slides/01-boolean.ppt">Chap. 1, Boolean retrieval</a>
+  </td><td>IIR Ch.1, MIR Ch.1, MIR 8.1-8.2, Salton 8.1-8.3</td></tr>
+  <tr><td>3</td><td>Mar. 8, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/02-dictionary.ppt">Chap. 2, The term vocabulary and postings lists</a> 
+  <br><a href="http://140.124.180.182/IR_Spring12/slides/03-tolerantretrieval.ppt">Chap. 3, Dictionaries and tolerant retrieval</a>
+  </td><td>
+  IIR Ch.2, MIR 8.2, 7.1.-7.2, Salton 8.6
+  <br>IIR Ch.3, MIR 4.2, Salton Ch.9
+</td><td></td></tr>
+  <tr><td>4</td><td>Mar. 15, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/04-indexconstruction.ppt">Chap. 4, Index construction</a>
+  </td><td>
+  IIR Ch.4, MIR Ch.8
+</td><Td>HW#1</td></tr>
+  <tr><td>5</td><td>Mar. 22, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/05-compression.ppt">Sec. 5.1 Statistical properties of terms in information retrieval</a>
+  <br><a href="http://140.124.180.182/IR_Spring12/slides/06-tfidf.ppt">Chap. 6, Scoring, term weighting, and the vector space model</a>
+  </td><Td>
+IIR 5.1, MIR 6.1-6.3
+  <br>IIR Ch.6, MIR 2.5
+  </td><td></td></tr>
+  <tr><td>6</td><td>Mar. 29, 2012</td><td>
+  (Team Registration/Description of 
+  <a href="http://140.124.180.182/IR_Spring12/slides/proposal.ppt">Term project
+  proposal</a>
+  ) 
+</td><td>
+  </td>
+  <td>
+</td></tr>
+  <tr><td>7</td><td>Apr. 5, 2012</td><td>(Compensation Leave for Sports Day)</td>
+  <td></td><td><b>Due: HW#1</b></td></tr>
+  <tr><td>8</td><td>Apr. 12, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/07-vectorspace.ppt">Chap. 7, Computing scores in a complete search system</a>  
+  </td><td>
+  IIR Ch,7, MIR 2.5
+</td><td>HW#2
+</td></tr>
+  <tr><td>9</td><td>Apr. 19, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/08-evaluation.ppt">Chap. 8, Evaluation in information retreival</a>
+  </td><td>
+  IIR Ch.8, MIR Ch.3
+  </td><td><b>Due: Proposal</b>
+ </td></tr>
+  <tr><td>10</td><td>Apr. 26, 2012</td><td>
+  (Midterm Exam)
+  </td><Td></td><td><b>Due: HW#2</b>
+  </td></tr>
+  <tr><td>11</td><td>May 3, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/09-queryexpansion.ppt">Chap. 9, Relevance feedback and query expansion</a>
+  <br><a href="http://140.124.180.182/IR_Spring12/slides/13-textclass.ppt">Chap. 13, Text classification and Naive Bayes</a>
+  </td><td>
+  IIR Ch.9, MIR Ch.5
+  <br>IIR Ch.13
+  </td><td>
+  Note: Only selected topics in Ch.13 will be covered.
+  </td></tr>
+  <tr><td>12</td><td>May 10, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/14-vectorclassify.ppt">Chap. 14, Vector space classification</a>
+  <br><a href="http://140.124.180.182/IR_Spring12/slides/15-SVMs.ppt">Sec. 15.1 Support vector machines</a>
+  </td><td>
+  IIR 14.1-14.3
+  <br>IIR Sec.15.1
+  </td><td>
+  HW#3
+  <br>Note: Only selected topics in Ch. 14 & Sec.15.1 will be covered.
+  </td></tr>
+  <tr><td>13</td><td>May 17, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/16-clustering.ppt">Chap. 16, Flat clustering
+  & Chap. 17, Hierarchical clustering</a>  
+  </tD><td>
+  IIR Ch.16-17, MIR 5.3
+  </td><td>
+  Note: Only selected topics in Ch.16 & 17 will be covered.</td></tr>
+  <tr><td>14</td><td>May 24, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/19-webchar.ppt">Chap. 19, Web search basics</a>
+  </td><td>
+  IIR Ch.19, MIR Ch.13
+  </td><td><b>Due: HW#3</b>
+  <br><b>Due: Presentation time slot booking</b>
+</td></tr>
+  <tr><td>15</td><td>May 31, 2012</td><td>
+  <a href="http://140.124.180.182/IR_Spring12/slides/20-crawling.ppt">Chap. 20, Web crawling and indexes</a>
+  <br><a href="http://140.124.180.182/IR_Spring12/slides/21-linkanalysis.ppt">Chap. 21, Link analysis</a>
+  <br>(Advanced topics and applications of IR: CLIR, Multimedia IR, and Semantic Search)
+</td><td>
+  IIR Ch.20, MIR Ch.13
+  <br>IIR Ch.21, MIR 2.7
+  </td><td>
+  Note: Only selected parts of Ch.21 will be introduced
+  </td></tr>
+  <tr><td>16</td><td>Jun. 7, 2012</td><td>Final Presentation: Week 1 (9 teams completed.)
+  </td><td></td></tr>
+  <tr><td>17</td><td>Jun. 14, 2012</td><td>Final Presentation: Week 2 (11 teams completed.)
+  </td><td></td></tr>
+  <tr><td>18</td><td>Jun. 21, 2012</td><td>Final Presentation: Week 3 (13 teams completed.)
+  </td><td></td></tr>
+</table>
+
+
+<h2> Useful Links </h2>
+Here're some useful links to information retrieval related resources or further readings.
+
+<ul>
+<li> Generic
+ <ul>
+ <li> <a href="http://en.wikipedia.org/wiki/Information_retrieval">Wikipedia page on Information Retrieval</a>
+ <li> <a href="http://www-csli.stanford.edu/~hinrich/information-retrieval.html">Information Retrieval Resources</a>
+ </ul>
+
+<li> Academic
+ <ul>
+ <li>International Conferences:
+ <ul>
+ <li> ACM SIGIR: International Conference on Information Retrieval
+ <li> ACM CIKM: Conference on Information Knowledge and Management
+ <li> WWW: International World Wide Web Conference
+ <li> JCDL: Joint Conference on Digital Libraries
+ <li> TREC: TExt Retrieval Conference
+ </ul>
+ <li>Regional Conferences:
+ <ul>
+ <li> AIRS: Asia Information Retrieval Symposium 
+ <li> ECIR: European Conference on Information Retrieval 
+ <li> ECDL: European Conference on Research and Advanced Technology for Digital Libraries
+ <li> ICADL: International Conference on Asian Digital Libraries 
+ </ul>
+ <li>Journals:
+ <ul>
+ <li> ACM TOIS: Transactions on Information Systems 
+ <li> JASIST: Journal of the American Society of Information Sciences
+ <li> IP&M: Information Processing and Management
+ </ul>
+ <li>Others:
+ <ul>
+ <li> WI: International Conference on Web intelligence
+ <li> KDD: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+ <li> ICDM: International Conference on Data Mining
+ <li> IEEE TKDE: IEEE Transactions on Knowledge and Data Engineering
+ </ul>
+ </ul>
+<li> More Books
+ <ul>
+ <li> Managing Gigabytes. I.H. Witten, A. Moffat, T.C. Bell. Morgan Kaufmann, 1999. <br>
+ <li> Information Retrieval. C. J. van Rijsbergen. Butterworths, 1979. 
+ <li> Readings in Information Retrieval. K. Sparck Jones, P. Willett. Morgan Kaufmann, 1997.  
+ <li> Automatic Text Processing, G. Salton, Addison-Wesley, 1989. 
+ </ul>
+</ul>
+
+<hr>
+
+<h2> Programming Assignments and Projects</h2>
+Please hand in your assignment before deadline according to the following instructions. <br>
+
+<h3>Submission Instructions</h3>
+<b>NOTE</b>: Programs or projects in electronic files must be submitted directly to the TA
+online at: http://140.124.183.39/IR/.
+<p>
+If you cannot successfully submit your work, please contact with the TA or the instructor.
+
+
+<h3> Homeworks </h3>
+
+<ol>
+<li> <a href="http://140.124.180.182/IR_Spring12/HW/HW1.ppt">HW#1</a>: Indexing
+<br> Due: <b>Apr. 5, 2012</b>
+<li> <a href="http://140.124.180.182/IR_Spring12/HW/HW2.ppt">HW#2</a>: Query processing & searching
+<br> Due: <b>Apr. 26, 2012</b>
+<li> <a href="http://140.124.180.182/IR_Spring12/HW/HW3.ppt">HW#3</a>: Text Classification
+<br> Due: <b>May 24, 2012</b>
+</ol>
+
+<h3> Projects </h3>
+
+<ol>
+  <li> <b>Term Project</b>: paper presentation or system demonstration
+    <table border=2>
+     <tr> <th>Item</th><th>Description</th><th>Time</th></tr>
+      <tr> <td><b>Proposal</b></td><td> You are required to submit a 
+      <a href="http://140.124.180.182/IR_Spring12/slides/proposal.ppt">proposal for term project</a>
+      before midterm exam (Apr. 19, 2012).
+     </td> <td><b>Apr. 19, 2012</b></td></tr>
+      <tr> <td><b>Topics</b></td> <td>
+      <a href="http://140.124.180.182/IR_Spring12/slides/term_proj_list.pdf">Topics for term projects</a> include system demostration and paper presentation.
+      <br>
+      In paper presentations, the paper quality will *greatly* affect your score in term project. Please *carefully* select good papers to read.
+     </td>
+      <td></td></tr>
+      <tr> <td><b>Schedule</b></td> <td>
+      <A href="http://140.124.180.182/IR_Spring12/slides/term_project_schedule-Jun21.pdf">Final Schedule of term project presentation</a> has been arranged,
+      with 33 teams in total (12 system demos, and 21 paper presentations) (as of Jun. 21, 2012)
+      <br>Due to our time limits, we will start the term
+      project presentation on <b>Jun. 7, 2012</b>.<br>
+      Each team is allocated up to 20 minutes for your presentation (and
+      system demo).
+      <br>
+      * [NOTE] All presentations must be finished within the scheduled time slots, which will be the last *three* weeks of this semester. 
+      No other time slots will be avbailable.
+      <br>If you have preferred time slots, please book before <b>May 24, 2012</b>.
+      </td>
+      <td>Jun. 7, 14, 21, 2012</td></tr>
+      <tr> <td><b>Report</b></td><td>Please upload your final report before <b>Jun. 25, 2012</b><br>The final report should contain at
+      least the following: 
+      <ol>
+      <li><em>presentation slides</em> (for all teams), and 
+      <li><em>source code, installation/execution instructions,
+      team members and task responsibility</em> (for system projects)
+      </ol></td>
+      <td><b>Jun. 25, 2012</b> (Monday)
+      </td></tr>
+    </table>
+</ol>
+
+
+<h2> Exams </h2>
+<ol>
+	<li> Midterm Exam: Apr. 16-20, 2012<br> 
+             <ul>
+               <li>Date: Extended to <b>Apr 26, 2012</b> (Wed.)
+               <li>Time: 9:10-12:00am
+               <li>Location: R1322, Technology Building
+               <li>Range: <b>Ch.1-8</b> 
+             </ul>
+        <li> Final Exam: Jun. 18-22, 2012<br>
+             <ul>
+               <li> <b>Note</b>: There will be no final exam in this course. Instead, you are
+             required to finish a term project for system development or paper presentation.
+             </ul>
+             
+</ol>
+
+
+<h2> Scores </h2>
+
+Please check the homework submission site for more details.
+<ul>
+<li> <a href="http://140.124.180.182/IR_Spring12/slides/Score-Jun25.pdf">Final Score</a> (as of Jun. 25, 2012)
+</ul>
+
+<hr>
+
+<address>
+	E-mail: jhwang AT csie . ntut . edu  . tw <br>
+Created: Feb. 16, 2012.<br>
+Last Updated: Jun. 26, 2012.<br>
+</address>
+</body>
+</html>
+
