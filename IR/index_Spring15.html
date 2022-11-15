@@ -1,0 +1,362 @@
+<html>
+<head>
+<title>Information Retrieval and Applications, Spring 2015</title>
+</head>
+<body>
+	
+<h1>Informaiton Retrieval and Applications, Spring 2015</h1>
+This course offers an introduction to the principles and concepts in information
+retrieval (IR), which is fundamental to modern Web search engines.
+<br>In addition to Web search, other applications of information retrieval
+systems will also be described.
+<br>This year, the course is offered at graduate-level as well as the International Graduate Program in College of Electrical Engineering and Computer Science (EECS). It's taught in English.
+
+<h2>Course Information</h2>
+<ul>
+	<li>Instructor: Jenq-Haur Wang
+	<li>E-mail: mailbox at the domain of csie  within  NTUT, and my username is jhwang
+	<li>Office: R1534, Technology Building (ext. 4238)
+	<li>Office Hours: Tue. and Thu. 9:00-12:00am
+	<li>Class Hours: Mon. 9:10-12:00am, <b>R627, 6th Teaching Building</b>
+        <li>TA: Mr. Tsai (R1424, Technology Building)
+        <li>Prerequisite: data structures (and algorithms), linear algebra
+	and probability theory, working experience of high-level programming languages
+        <li>Textbook: Christopher D. Manning, Prabhakar Raghavan and Hinrich Schuetze, <A href="http://www.informationretrieval.org/">Introduction to Information Retrieval</a>, Cambridge University Press. 2008. 
+	<li>References: 
+	<ul>
+	  <li>Bruce Croft, Donald Metzler, and Trevor Strohman, <a href="http://www.search-engines-book.com/">Search Engines: Information Retrieval in Practice</a>, Addison-Wesley, 2010
+  	  <li>Ricardo Baeza-Yates and Berthier Ribeiro-Neto, <a
+	  href="http://www.mir2ed.org/">Modern Information Retrieval: The Concepts and Technology behind Search</a>,
+	  Addison-Wesley, 2011.
+	    <ul>
+	    <li>This is the second edition of their book <a href="http://people.ischool.berkeley.edu/~hearst/irbook/">Modern Information Retrieval</a> in 1999.
+	    </ul>
+	  <li>Stefan Buettcher, Charles L.A. Clarke, and Gordon V. Cormack,
+	    <a href="http://www.ir.uwaterloo.ca/book/">Information Retrieval: Implementing and Evaluating Search
+	  Engines</a>, MIT Press, 2010.
+	</ul>
+</ul>	
+
+<h2> Latest News</h2>
+<ul>
+  <li> Jul. 1, 2015: *** [NOTE} *** The final score has been posted. Please check if there's any questions <b>before 11:59AM, Jul. 3, 2015 (Fri.)</b>.
+  <li> Jun. 21, 2015: [NOTE] All teams have to upload your presentation slides and source code and documentation as the final report before <b>Jun. 30, 2015 (Tue.)</b>.
+  <li> May 26, 2015: [NOTE] The schedule of term project presentation has been announced. Please check if there's any question as soon as possible.
+
+  <li> May 11, 2015: HW#3 has been announced.
+  <li> Apr. 22, 2015: [NOTE] There are two students who didn't belong to any team in HW#1 & HW#2: 97820301, 100590331. Please contact with us as soon as possible.
+  <li> Apr. 13, 2015: [NOTE] HW#1 has been checked with some findings:
+   <ol>
+   <li>Some teams share very similar or even the same source code.
+In the case of plagiarism, scores will be discounted (e.g. averaged across all teams sharing the same code).
+   <li>If you utilize open source tools by <b>directly using the executables files</b>, please remember to modify and re-submit your source code that <b>calls the library functions or APIs</b>.
+   <li>If you are not sure if you need to re-submit your homework, please <b>contact with the TA or me as soon as possible</b> for more details.
+   </ol>
+
+  <ul>
+  <li>[NOTE] 請注意: 若不同組別作業程式碼非常類似或抄襲, 分數將會視情形打折.
+  若使用 open source 工具, 卻直接使用現有執行檔, 請重新上傳呼叫 library functions 或呼叫 API 的程式碼, 若不清楚, 請盡速與助教或我聯絡.
+  </ul>
+
+<li> Apr. 13, 2015: HW#2 has been announced.
+Please check if the team members are correct or not.
+  <li> Mar. 30, 2015: Due to the delay in the release of test data,
+the deadline of HW#1 has been extended for one week.
+The new deadline is <b>Apr. 6, 2015</b>.
+  <li> Mar. 16, 2015: HW#1 has been announced. <em>Please list your team members in your HW#1</em>.
+<br>Note that the list of randomly allocated data files are available for download on the homework submission site: <b>https://140.124.183.13/</b>. (under the folder: shared/HW1_DataSet) 
+  <li> Mar. 5, 2015: [NOTE] Due to the capacity of the original classroom, our new classroom will be R627, 6th Teaching Building. (effective from <b>Mar. 9, 2015</b>)
+  <li> Feb. 25, 2015: The homepage for Information Retrieval and Applications (Spring 2015) has been setup.
+</ul>
+
+
+<h2>(Tentative) Schedule</h2>
+The slides were slightly modified from the Stanford CS276 class.
+<br>Note: IIR - Introduction to Information Retrieval, MIR - Modern Information Retrieval, Salton - Automatic Text Processing
+<table border=1>
+  <tr><th>Week</th><th>Date</th><th>Content</th><th>Reading</th><Th>Note</th></tr>
+  <tr><td>1</td><td>Mar. 2, 2015</td><td><a href="http://140.124.180.182/IR/slides/00-intro.ppt">Course Overview</a></td><td></td></tr>
+  <tr><td>2</td><td>Mar. 9, 2015</td><td>
+   <a href="http://140.124.180.182/IR/slides/01-boolean.ppt">Chap. 1, Boolean retrieval</a>
+  <br><a href="http://140.124.180.182/IR/slides/02-dictionary.ppt">Chap. 2, The term vocabulary and postings lists</a> 
+  </td><td>
+IIR Ch.1, MIR Ch.1, MIR 8.1-8.2, Salton 8.1-8.3
+<br>IIR Ch.2, MIR 8.2, 7.1.-7.2, Salton 8.6
+</td></tr>
+  <tr><td>3</td><td>Mar. 16, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/03-tolerantretrieval.ppt">Chap. 3, Dictionaries and tolerant retrieval</a>
+  </td><td>
+  IIR Ch.3, MIR 4.2, Salton Ch.9
+</td><td>
+HW#1
+</td></tr>
+  <tr><td>4</td><td>Mar. 23, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/04-indexconstruction.ppt">Chap. 4, Index construction</a>
+  </td><td>
+  IIR Ch.4, MIR Ch.8
+</td><Td>
+Due: Team Member Registration
+</td></tr>
+  <tr><td>5</td><td>Mar. 30, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/05-compression.ppt">Sec. 5.1 Statistical properties of terms in information retrieval</a>
+  <br><a href="http://140.124.180.182/IR/slides/06-tfidf.ppt">Chap. 6, Scoring, term weighting, and the vector space model</a>
+  </td><Td>
+IIR 5.1, MIR 6.1-6.3
+<br>IIR Ch.6, MIR 2.5
+  </td><td>
+<a href="http://140.124.180.182/IR/slides/proposal.ppt">term project proposal</a>
+</td></tr>
+  <tr><td>6</td><td>Apr. 6, 2015</td><td>
+(Compensation Leave for Tomb Sweeping Day)
+</td><td>
+  </td>
+  <td>
+<b>Due: HW#1</b>
+</td></tr>
+  <tr><td>7</td><td>Apr. 13, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/07-vectorspace.ppt">Chap. 7, Computing scores in a complete search system</a>  
+  <br><a href="http://140.124.180.182/IR/slides/08-evaluation.ppt">Chap. 8, Evaluation in information retreival</a>
+</td>
+  <td>
+  IIR Ch,7, MIR 2.5
+  <br>IIR Ch.8, MIR Ch.3
+</td><td>
+HW#2
+</td></tr>
+  <tr><td>8</td><td>Apr. 20, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/09-queryexpansion.ppt">Chap. 9, Relevance feedback and query expansion</a>
+  </td><td>
+  IIR Ch.9, MIR Ch.5
+</td><td>
+</td></tr>
+  <tr><td>9</td><td>Apr. 27, 2015</td><td>
+  (Midterm Exam)
+  </td><td>
+  </td><td>
+<b>Due: HW#2</b>
+ </td></tr>
+  <tr><td>10</td><td>May 4, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/13-textclass.ppt">Chap. 13, Text classification and Naive Bayes</a>
+  </td><Td>
+  IIR Ch.13
+</td><td>
+<b>Due: Proposal</b>
+  </td></tr>
+  <tr><td>11</td><td>May 11, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/14-vectorclassify.ppt">Chap. 14, Vector space classification</a>
+  <br><a href="http://140.124.180.182/IR/slides/15-SVMs.ppt">Sec. 15.1 Support vector machines</a>
+  </td><td>
+  IIR 14.1-14.3
+  <br>IIR Sec.15.1
+  </td><td>
+  HW#3
+  <br>Note: Only selected topics in Ch.13, Ch.14, & Sec. 15-1 will be covered.
+  </td></tr>
+  <tr><td>12</td><td>May 18, 2015</td><td>
+  (TA explanation on HW#3, datasets, and grading on previous homeworks) 
+</td><td>
+  IIR Ch.16-17, MIR 5.3
+  </td><td>
+Note: Only selected topics in Chap. 16, & 17 will be covered.</td></tr>
+  </td></tr>
+  <tr><td>13</td><td>May 25, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/16-clustering.ppt">Chap. 16, Flat clustering & Chap. 17, Hierarchical clustering</a>  
+  </tD><td>
+  IIR Ch.16-17, MIR 5.3
+  </td><td>
+  </td></tr>
+  <tr><td>14</td><td>Jun. 1, 2015</td><td>
+  <a href="http://140.124.180.182/IR/slides/19-webchar.ppt">Chap. 19, Web search basics</a>
+  <br><a href="http://140.124.180.182/IR/slides/20-crawling.ppt">Chap. 20, Web crawling and indexes</a>
+  <br><a href="http://140.124.180.182/IR/slides/21-linkanalysis.ppt">Chap. 21, Link analysis</a>
+  <br><a href="http://140.124.180.182/IR/slides/IRApp-May27-2009.ppt">Advanced topics and applications of IR</a>: CLIR, Multimedia IR, and Semantic Search
+<br>Social search
+  </td><td>
+  IIR Ch.19, MIR Ch.13
+  <br>IIR Ch.20, MIR Ch.13
+  <br>IIR Ch.21, MIR 2.7
+  </td><td>
+<b>Due: HW#3</b>
+<br>Note: Only selected parts of Ch.21 will be introduced
+</td></tr>
+  <tr><td>15</td><td>Jun. 8, 2015</td><td>
+Final Presentation: Week 1: 9 teams completed.
+</td><td>
+  </td><td>
+  </td></tr>
+  <tr><td>16</td><td>Jun. 15, 2015</td><td>
+Final Presentation: Week 2: 9 teams completed.
+  </td><td></td></tr>
+  <tr><td>17</td><td>Jun. 22, 2015</td><td>
+Final Presentation: Week 3: 11 teams completed.
+</td><td></td></tr>
+  <tr><td>18</td><td>Jun. 29, 2015</td><td>
+Final Presentation: Week 4
+  </td><td></td></tr>
+</table>
+
+
+<h2> Useful Links </h2>
+Here're some useful links to information retrieval related resources or further readings.
+
+<ul>
+<li> Generic
+ <ul>
+ <li> <a href="http://en.wikipedia.org/wiki/Information_retrieval">Wikipedia page on Information Retrieval</a>
+ <li> <a href="http://www-csli.stanford.edu/~hinrich/information-retrieval.html">Information Retrieval Resources</a>
+ </ul>
+<li> Some open source tools
+ <ul>
+  <li> Apache Lucene/Solr
+  <li> Apache Hadoop, Spark
+  <li> Lemur Project, Indri, Galago
+  <li> Terrier
+  <li>
+ </ul>
+<li> Academic
+ <ul>
+ <li>International Conferences:
+ <ul>
+ <li> ACM SIGIR: International Conference on Information Retrieval
+ <li> ACM CIKM: Conference on Information Knowledge and Management
+ <li> WWW: International World Wide Web Conference
+ <li> JCDL: Joint Conference on Digital Libraries
+ <li> TREC: TExt Retrieval Conference
+ </ul>
+ <li>Regional Conferences:
+ <ul>
+ <li> AIRS: Asia Information Retrieval Symposium 
+ <li> ECIR: European Conference on Information Retrieval 
+ <li> ECDL: European Conference on Research and Advanced Technology for Digital Libraries
+ <li> ICADL: International Conference on Asian Digital Libraries 
+ </ul>
+ <li>Journals:
+ <ul>
+ <li> ACM TOIS: Transactions on Information Systems 
+ <li> JASIST: Journal of the American Society of Information Sciences
+ <li> IP&M: Information Processing and Management
+ </ul>
+ <li>Others:
+ <ul>
+ <li> WI: International Conference on Web intelligence
+ <li> KDD: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+ <li> ICDM: International Conference on Data Mining
+ <li> IEEE TKDE: IEEE Transactions on Knowledge and Data Engineering
+ </ul>
+ </ul>
+<li> More Books
+ <ul>
+ <li> Managing Gigabytes. I.H. Witten, A. Moffat, T.C. Bell. Morgan Kaufmann, 1999. <br>
+ <li> Information Retrieval. C. J. van Rijsbergen. Butterworths, 1979. 
+ <li> Readings in Information Retrieval. K. Sparck Jones, P. Willett. Morgan Kaufmann, 1997.  
+ <li> Automatic Text Processing, G. Salton, Addison-Wesley, 1989. 
+ </ul>
+</ul>
+
+<hr>
+
+<h2> Programming Assignments and Projects</h2>
+Please hand in your assignment before deadline according to the following instructions. <br>
+
+<h3>Submission Instructions</h3>
+<b>NOTE</b>: Programs or projects in electronic files must be submitted directly to the TA online at: <a href="https://140.124.183.13/">https://140.124.183.13/</a>. 
+<ul>
+<li> <b>Account</b>: Use your student ID as the account and password at your first login. Please change the password as soon as possible for better security.
+<li> <b>Filename</b>: Compress your source code and related files into one compressed file. Please name it according to your ID and each homework. For example, [id]_HW1.zip.
+</ul>
+
+<p>
+If you cannot successfully submit your work, please contact with the TA or the instructor.
+
+
+<h3> Homeworks </h3>
+
+There will be about 2-3 programming homeworks that target at different IR tasks
+such as indexing, searching, and data analysis.
+<ol>
+<li> <a href="http://140.124.180.182/IR/HW/HW1.ppt">HW#1</a>: Vector Space Retrieval -- Indexing
+<br>Due: extended to <b>Apr. 6, 2015</b>
+<ul>
+  <li> Note that the list of randomly allocated data files are available on the homework submission site. 
+  <li> Each team can choose any of the allocated files for the team members.
+  <li> Please check <a href="http://140.124.180.182/IR/slides/2015_ir_team_member_list.pdf">the current list of team members</a>. (as of Apr. 13, 2015) 
+</ul>
+<li> <a href="http://140.124.180.182/IR/HW/HW2.ppt">HW#2</a>: Vector Space Retrieval -- Searching
+<br>Due: <b>Apr. 27, 2015</b>
+<li> <a href="http://140.124.180.182/IR/HW/HW3.ppt">HW#3</a>: Text Classification
+<br>Due: <b>Jun. 1, 2015</b>
+</ol>
+
+<h3> Projects </h3>
+
+<ol>
+  <li> <b>Term Project</b>: paper presentation or system demonstration
+    <table border=2>
+     <tr> <th>Item</th><th>Description</th><th>Time</th></tr>
+      <tr> <td><b>Proposal</b></td><td> You are required to submit a 
+      <a href="http://140.124.180.182/IR/slides/proposal.ppt">proposal for term project</a>
+      one week after midterm exam.
+     </td> <td> <b>May 4, 2015</b> (Mon.)</td></tr>
+      <tr> <td><b>Topics</b></td> <td>
+      For paper presentations, the paper quality will *greatly* affect your score in term project. Please *carefully* select good papers to read.
+     </td>
+      <td></td></tr>
+      <tr> <td><b>Schedule</b></td> <td>
+<br>Due to our time limits, we have to start the term
+      project presentation on <b>Jun. 8, 2015</b> (Mon.).<br>
+      <br>
+      * [NOTE] All presentations *must* be finished within the scheduled time slots, which will be the last *four* weeks in this semester. 
+      <em>No other time slots will be avbailable</em>.
+      <br>If you have preferred time slots, please book at your earliest convenience in your proposal.
+      <br><a href="http://140.124.180.182/IR/slides/IR_termproj_schedule-Jun29.pdf">The current schedule of term project presentation</a> has been announced.
+(As of Jun. 29, 2015, there are 36 teams in total.)
+      </td>
+      <td>Jun. 8, 15, 22, 29, 2015</td></tr>
+      <tr> <td><b>Report</b></td><td>Each team is <em>*required*</em> to upload the final report after finishing your presentation.
+<br>The final report should contain at
+      least the following: 
+      <ol>
+      <li><em>presentation slides</em> (for all teams), and 
+      <li><em>source code, installation/execution instructions,
+      team members and task responsibility</em> (for system projects)
+      </ol></td>
+      <td><b>Jun. 30, 2015</b> (Tue.)
+      </td></tr>
+    </table>
+</ol>
+
+
+<h2> Exams </h2>
+<ol>
+	<li> Midterm Exam: Apr. 22-28, 2015<br> 
+             <ul>
+               <li>Date:  <b>Apr 27, 2015</b> (Mon.)
+               <li>Time: 9:10-12:0apm
+               <li>Location: R1322, Technology Building
+               <li>Range: Ch.1-9
+             </ul>
+        <li> Final Exam: Jun. 24-30, 2015<br>
+             <ul>
+               <li> <b>Note</b>: There will be no final exam in this course. Instead, you are required to finish a term project for system development or paper presentation.
+             </ul>
+             
+</ol>
+
+
+<h2> Scores </h2>
+
+Please check the homework submission site for more details.
+<ul>
+<li><a href="http://140.124.180.182/IR/slides/Score-Jul02.pdf">The final score</a> (as of Jul. 2, 2015)
+</ul>
+
+<hr>
+
+<address>
+	E-mail: jhwang AT csie . ntut . edu  . tw <br>
+Created: Feb. 25, 2015.<br>
+Last Updated: Jul. 2, 2015.<br>
+</address>
+</body>
+</html>
+
