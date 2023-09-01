@@ -1,0 +1,327 @@
+<html>
+<head>
+<title>Big Data Mining and Applications, Fall 2023</title>
+</head>
+<body>
+	
+<h1>Big Data Mining and Applications, Fall 2023</h1>
+This course discusses issues in scalable mining of big data in various applications, which is gaining more popularity in recent years.
+<br>The major focus of this course will be utilizing parallel progamming in distributed platforms for efficient mining of different kinds of big data.
+<br>The course is offered at graduate-level, and will be taught in English.
+
+<p>
+<h2>Notes on Online Recording of Course Sessions</h2>
+All students enrolled in this course have been added to the two separate teams in Microsoft Teams for the corresponding course numbers: 321524, 323392.
+<br>
+You can check the online recording of course sessions in Microsft Teams at:
+<A href="https://teams.microsoft.com/l/team/19%3aPPLNPevIsFh3N94apM0pJhTnQnqfuUr6VXKQCrbFJBg1%40thread.tacv2/conversations?groupId=c8540540-f7d0-4789-99a7-08217b1b3ec7&tenantId=dfb5e216-2b8a-4b32-b1cb-e786a1095218">the team created for Big Data Mining [course number: 321524]</a>
+
+<p>
+[*** NOTE ***]: This course is <em>NOT</em> an introductory course for undergraduates.
+You are strongly suggested to take the first course of "Introduction to Big Data Analytcis" or "Data Mining" in the undergraduate-level as a prerequisite.
+<br><b>It contains very heavy loads of parallel programming, which is a totally different concept from sequential programming</b>.
+<br>Please think twice before taking this course!
+
+<p>
+Please read the <a href="Notes.pptx">notes to the course</a> very carefully about the requirements for the programming homework and quiz.
+
+<h2>Course Information</h2>
+<ul>
+	<li>Instructor: Jenq-Haur Wang
+	<li>E-mail: mailbox at the domain of  NTUT, and my username is jhwang
+	<li>Office: R1534, Technology Building (ext. 4238)
+	<li>Office Hours: Tue. & Fri. 9:10-12:00am
+	<li>Class Hours: Thu. 9:10am-12:00pm, <b>R502, Pioneer Building</b>
+        <li>TA: Lawrence (R1424, Technology Building)
+          <br> e-mail: (TBA)
+        <li>Prerequisite: data structures (and algorithms), database systems, discrete math (probability), linear algebra, basic data mining,
+	and working experience of high-level programming languages
+        <li>Textbook: (Selected chapters)
+        <ul>
+          <li>Jure Leskovec, Anand Rajaraman, Jeffrey David Ullman, <A href="http://www.mmds.org/">Mining of Massive Datasets</a>, 3rd Edition, Cambridge University Press, Feb. 2020. ([MMDS3]) 
+          <li>Jimmy Lin and Chris Dyer, Data-Intensive Text Processing with MapReduce, Morgan & Claypool Publishers, 2010. ([MR])
+        </ul> 
+	<li>References: 
+	<ul>
+          <li> Jiawei Han, Micheline Kamber and Jian Pei, Data Mining: Concepts and Techniques, 3rd ed., Morgan Kaufmann Publishers, July 2011. ([DM3])
+          <li>Tom White, Hadoop: The Definitive Guide, 4th ed., O'Reilly Media, 2015.
+          <li>Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia, Learning Spark: Lightning-Fast Big Data Analysis, O'Reilly Media, January 2015.
+
+          <li> Others: Web documents, tutorials, and selected academic papers.
+	</ul>
+</ul>	
+
+<h2> Latest News</h2>
+<ul>
+  <li> Sep. 1, 2023: The homepage for Big Data Mining and Applications (Fall 2023) has been setup.
+</ul>
+
+
+<h2>(Tentative) Schedule</h2>
+<table border=1>
+  <tr><th>Week</th><th>Date</th><th>Content</th><th>Reading</th><Th>Note</th></tr>
+  <tr><td>1</td><td>Sep. 14, 2023</td><td>
+<a href="00-overview.ppt">Course Overview</a>
+</td><td>
+</td><td>
+</td></tr>
+  <tr><td>2</td><td>Sep. 21, 2023</td><td>
+<br><a href="01-intro.pptx">Ch.1, Introduction to distributed platforms & MapReduce</a>: Hadoop, Spark
+</td><td>
+[MMDS3] Ch.1 & 2
+<br>[MR] Ch.1-3 
+  </td><td>
+</td></tr>
+  <tr><td>3</td><td>Sep. 28, 2023</td><td>
+<a href="MapReduce_Basics.pptx">MapReduce programming: the basics</a> 
+  </td><td>
+[MMDS3] Ch. 2
+<br>[MR] Ch. 3
+</td><td>
+</td></tr>
+  <tr><td>4</td><td>Oct. 5, 2023</td><td>
+<a href="MapReduce_Algorithm.pptx">MapReduce Algorithm Design</a>: design patterns (pairs & stripes), language models
+  </td><td>
+[MMDS3] Ch. 2
+<br>[MR] Ch. 3
+</td><Td>
+HW#1
+</td></tr>
+  <tr><td>5</td><td>Oct. 12, 2023</td><td>
+MapReduce Algorithm Design
+<bR><b>TA</b>: Multi-node Hadoop/Spark Installation & configuration, platform usage demo
+<br>TA: Homework Q&A, term project proposal, and team member registration
+  </td><Td>
+</td><td>
+</td></tr>
+  <tr><td>6</td><td>Oct. 19, 2023</td><td>
+<a href="03-lsh.pptx">Ch.3, Finding similar items</a>
+</td><td>
+[MMDS3] Ch.3
+  </td>
+  <td>
+</td></tr>
+  <tr><td>7</td><td>Oct. 26, 2023</td><td>
+<a href="07-clustering.pptx">Ch.7, Clustering</a>
+</td>
+  <td>
+[MMDS3] Ch.7
+</td><td>
+HW#2
+<br><b>Due: HW#1</b>
+</td></tr>
+  <tr><td>8</td><td>Nov. 2, 2023</td><td>
+<a href="11-dim_red.pptx">Ch.11, Dimension reduction</a>
+  </td><td>
+skim through [MMDS3] Ch.11
+</td><td>
+<a href="proposal.pptx">Term Project Proposal</a>
+</td></tr>
+  <tr><td>9</td><td>Nov. 9, 2023</td><td>
+<a href="09-recsys1.pptx">Ch.9, Recommender systems</a>
+  </td><td>
+[MMDS3] Ch.9
+  </td><td>
+HW#3
+ </td></tr>
+  <tr><td>10</td><td>Nov. 16, 2023</td><td>
+  (Midterm Exam)
+  </td><Td>
+</td><td>
+<b>Due: HW#2</b>
+  </td></tr>
+  <tr><td>11</td><td>Nov. 23, 2023</td><td>
+<a href="05-linkanalysis1.pptx">Ch.5, Link analysis - PageRank & HITS</a>
+  </td><td>
+[MMDS3] Ch.5
+  </td><td>
+<b>Due: Proposal</b>
+  </td></tr>
+  <tr><td>12</td><td>Nov. 30, 2023</td><td>
+<a href="05-linkanalysis2.pptx">Part II of link analysis</a>
+</td><td>
+[MMDS3] Ch.5
+  </td><td>
+HW#4
+<br>Due: HW#3
+  </td></tr>
+  <tr><td>13</td><td>Dec. 7, 2023</td><td>
+<a href="10-graphs1.pptx">Ch.10, Mining social network graphs: Community Detection</a>
+  </tD><td>
+[MMDS3] Ch.10
+  </td><td>
+  </td></tr>
+  <tr><td>14</td><td>Dec. 14, 2023</td><td>
+<a href="10-graphs2.pptx">Part II: Overalapping Communities</a>
+  </td><td>
+[MMDS3] Ch.10
+  </td><td>
+HW#5
+</td></tr>
+  <tr><td>15</td><td>Dec. 21, 2023</td><td>
+<a href="12-ml1.pptx">Ch.12, Large-scale machine learning: kNN, Perceptron</a>
+<br><a href="12-ml2.pptx">Ch.12, Large-scale machine learning: SVM</a>
+</td><td>
+[MMDS3] Ch.12
+  </td><td>
+Due: HW#4
+  </td></tr>
+  <tr><td>16</td><td>Dec. 28, 2023</td><td>
+Term Project Presentation (Week 1) 
+  </td><td></td><td>
+</td></tr>
+  <tr><td>17</td><td>Jan. 4, 2024</td><td>
+Term Project Presentation (Week 2) 
+</td><td>
+</td><td>
+Due: HW#5
+</td></tr>
+  <tr><td>18</td><td>Jan. 11, 2024</td><td>
+Term Project Presentation (Week 3)
+  </td><td>
+  </td><td>
+</td></tr>
+</table>
+
+
+<hr>
+
+<h2> Programming Assignments and Projects</h2>
+Please hand in your assignment before deadline according to the following instructions. <br>
+
+<h3>Program Submission Instructions</h3>
+<b>NOTE</b>: Programs or projects in electronic files must be submitted directly to the TA online at 
+iSchool+.
+
+<p>
+If you cannot successfully submit your work, please contact with the TA or the instructor.
+
+<h3>Distributed Programming Environment</h3>
+You can use your own computers, or virtual machines on any cloud computing services to setup your distributed programming environment for this course.
+
+<ol>
+<li><b>Computers</b>:
+<br>You can build your own distributed environment by commodity computers.
+Usually, Hadoop/Spark does not require very poweful capability of each machine.
+<li><b>VMs on the cloud</b>:
+<br>You can use existing cloud computing services from Google, Amazon, or Microsoft Azure to setup distributed environemnt.
+Most cloud services provide free quota for limited usage (CPU, memory, network bandwidth, storage).
+</ol>
+
+
+<h3> Homework </h3>
+
+There will be about five programming exercises (and some written exercises) that target at different data analysis tasks.
+<br><b>Given large datasets, all homeworks require parallel programming using either Hadoop or Spark, in <em>distributed mode</em>.</b> (for CS students)
+<br>Since it's totallly different from sequential programming, it takes much more efforts and time to complete.
+Please think twice before taking this course!
+
+<p>
+In the case of very large datasets, you still need to analyze all data objects in the whole dataset. 
+Please design your program accordingly to first partition the data into several batches, and then merge the final result.
+<ol>
+<li> 
+<a href="HW1.pptx">
+HW#1
+</a>
+:
+Big data analysis platform setup & simple statistics in MapReduce (or Python in Jupyter Notebook)
+
+<li> 
+<a href="HW2.pptx">
+HW#2
+</a>
+:
+Statistics (counting, co-occurrence) of multiple data sets in MapReduce (or Python in Jupyter Notebook)
+
+<li> 
+<a href="HW3.pptx">
+HW#3
+</a>
+: 
+Finding similar documents (by calculating minhash signatures, LSH, and KNN search) in MapReduce (or Python in Jupyter Notebook)
+
+<li> 
+<a href="HW4.pptx">
+HW#4
+</a>
+: 
+Recommender systems using collaborative filtering in MapReduce (or Python in Jupyter Notebook)
+
+<li> 
+<a href="HW5.pptx">
+HW#5
+</a>
+: 
+Analyzing web graphs in MapReduce (Connectivity, PageRank, ...)
+
+</ol>
+
+<h3> Projects </h3>
+
+<i>Notes</i>: About the datasets available for potential topics in term project, please check the <a href="competition.pptx">competitions</a>.
+
+<ol>
+  <li> <b>Term Project</b>: paper presentation or system demonstration
+    <table border=2>
+     <tr> <th>Item</th><th>Description</th><th>Time</th></tr>
+      <tr> <td><b>Proposal</b></td><td> You are required to submit a 
+      proposal for term project
+      one week after midterm exam.
+     </td> <td> <b>Nov. 23, 2021</b> (Tue.)</td></tr>
+      <tr> <td><b>Schedule</b></td> <td>
+<br>Due to our time limits, we might have to start the term
+      project presentation as early as <b>Dec. 28, 2023</b> (Thu.).<br>
+      <br>
+<br>* [NOTE] All presentations *must* be finished within the scheduled time slots, which will be the last *three* weeks in this semester. 
+      <em>No other time slots will be avbailable</em>.
+      <br>
+      </td>
+      <td>Dec. 28, 2023, Jan. 4, 11, 2024</td></tr>
+      <tr> <td><b>Report</b></td><td>Each team is <em>*required*</em> to upload the final report after finishing your presentation.
+<br>The final report should contain at least the following: 
+      <ol>
+      <li><em>presentation slides</em> (for all teams), and 
+      <li><em>source code, installation/execution instructions,
+      team members and task responsibility</em> (for system projects)
+      </ol></td>
+      <td><b>Jan. 12, 2024</b> (Fri.)
+      </td></tr>
+    </table>
+</ol>
+
+
+<h2> Exams </h2>
+<ol>
+	<li> Midterm Exam: Nov. 6-10, 2023<br> 
+             <ul>
+               <li>Date: <b>Nov. 16, 2023</b> (Thu.)
+               <li>Time: <b>9:10am-12:00pm</b>
+               <li>Location: <b>R502, Pioneer Building</b>
+               <li>Range: (TBD) 
+             </ul>
+        <li> Final Exam: Jan. 8-12, 2024<br>
+             <ul>
+               <li> <b>Note</b>: There will be no final exam in this course. Instead, you are required to finish a term project for system development.
+             </ul>
+             
+</ol>
+
+
+<h2> Scores </h2>
+
+Please check the homework submission site for more details.
+<ul>
+<li>
+</ul>
+
+<hr>
+
+<address>
+	E-mail: jhwang AT ntut . edu  . tw <br>
+Created: Sep. 1, 2023.<br>
+Last Updated: Sep. 1, 2023.<br>
+</address>
+</body>
+</html>
+
